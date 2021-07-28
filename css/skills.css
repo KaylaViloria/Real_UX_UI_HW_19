@@ -1,0 +1,90 @@
+h1{
+    font-weight: bold;
+    font-size: 32px;
+ }
+ 
+ h3{
+    font-weight: bold;
+    font-size: 24px;
+ }
+ 
+ p{
+    font-weight: normal;
+    font-size: 16px;
+ }
+
+.mySkills1{
+    background-color: white;
+    opacity: 50%;
+}
+
+ .logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+ }
+
+ nav{
+    width: 73%;
+   padding: 1%;
+ }
+
+ nav li{
+     display: inline-block;
+   vertical-align: top;
+ }
+
+ .flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillBlock{
+    padding: 15px;
+    margin: 15px;
+}
+
+.mySkills img{
+    width:100%
+}
+
+footer{
+    background-color: #FFE599;
+    width: 100%
+}
+
+footer ul{
+  vertical-align: top;
+  display: inline-block;
+}
+
+footer ul li{ 
+  display: inline-block;
+}
+
+footer img {
+    width: 10%;
+    size: 15px;
+}
+
+@media only screen and (max-width: 600) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .flexContainer {
+        grid-template-rows:300px, 300px, 300px;
+        grid-template-columns:1fr;
+        grid-template-areas:
+        "user research"
+        "user empathy"
+        "photography"
+        ;
+    }
+}
