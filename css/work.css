@@ -1,3 +1,5 @@
+
+
 h1{
     font-weight: bold;
     font-size: 32px;
@@ -13,42 +15,52 @@ h1{
     font-size: 16px;
  }
 
- .myWork1{
-        background-color: white;
-        opacity: 50%;
-}
-
- .logo{
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+ .header{
+   background-image: url("../images/myworkCopy.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
  }
 
- nav{
-    width: 73%;
-   padding: 1%;
+ .myWork1{
+        color: white;
+        opacity: 85%;
+        text-align: center;
+        font-size: 70px;
+}
+
+ .header img{
+   width: 20%;
+  size: 15px;
+  padding:10px;
  }
 
  nav li{
-     display: inline-block;
-   vertical-align: top;
- }
-
- .style {
-    width: 100%;
+  padding: 1%;
+  word-spacing: 15px;
+  display: inline-block;
+  text-align: right;
  }
 
  .workGrid {
     display: grid;
+    grid-template-columns: 50%, 50%;
     grid-template-rows: 33%, 33%, 33%;
     grid-template-areas: 
-    "hopeforChildren"
-    "usdaRedesign"
-    "timeCapsule";
+    "hopeforChildren imageHFC"
+    "imageUSDA usdaRedesign"
+    "timeCapsule imageTC";
 }
 
 .workGrid img {
     width: 100%;
+}
+
+
+.workGrid {
+  padding:15px;
+  margin: 15px;
 }
 
 .hopeforChildren {
@@ -64,26 +76,26 @@ h1{
 .timeCapsule {
     padding:15px;
     margin: 15px;
-}
+} 
 
 footer{
     background-color: #FFE599;
     width: 100%
 }
 
-footer ul{
-  vertical-align: top;
-  display: inline-block;
-}
-
 footer ul li{ 
+ padding: 1%;
+  word-spacing: 15px;
   display: inline-block;
+  text-align: right;
 }
 
 footer img {
     width: 10%;
     size: 15px;
+    padding:10px;
 }
+
 
 @media only screen and (max-width: 600) {
 
