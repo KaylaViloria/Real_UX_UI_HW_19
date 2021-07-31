@@ -43,11 +43,19 @@ h1{
 
 .aboutGrid{
     display: grid;
-    grid-template-columns: 50%, 50%;
-    grid-template-rows: 50%, 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     grid-template-areas: 
     "aboutInfo aboutImage"
     "rolesImage rolesInfo";
+}
+
+.rolesImage{
+    grid-area: rolesImage;
+}
+
+.rolesInfo{
+    grid-area: rolesInfo;
 }
 
 .aboutGrid {
