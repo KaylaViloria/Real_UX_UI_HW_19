@@ -13,26 +13,36 @@ h1{
     font-size: 16px;
  }
 
+ .header{
+    background-image: url("../images/my\ skills1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+  }
+
 .mySkills1{
-    background-color: white;
-    opacity: 50%;
+    color: white;
+        text-align: center;
+        font-size: 70px;
+        box-shadow: gray;
 }
 
- .logo{
-    width: 23%;
-    padding: 1%;
-    text-align: center;
- }
-
- nav{
-    width: 73%;
-   padding: 1%;
+ .header img{
+    width: 100px;
+  size: 15px;
+  padding:10px;
  }
 
  nav li{
-     display: inline-block;
-   vertical-align: top;
- }
+    padding: 1%;
+    word-spacing: 15px;
+    display: inline-block;
+    text-align: right;
+    color: white;
+   }
 
  .flexContainer {
     display: flex;
@@ -55,19 +65,23 @@ footer{
     width: 100%
 }
 
-footer ul{
-  vertical-align: top;
-  display: inline-block;
-}
-
 footer ul li{ 
-  display: inline-block;
+    padding: 1%;
+     word-spacing: 15px;
+     display: inline-block;
+     text-align: right;
+   }
+
+   footer img {
+    width: 100px;
+    size: 15px;
+    padding:10px;
 }
 
-footer img {
-    width: 10%;
-    size: 15px;
+.bottomPg{
+    text-align:end
 }
+
 
 @media only screen and (max-width: 600) {
     .flexContainer {
