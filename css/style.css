@@ -1,0 +1,139 @@
+h1{
+    font-weight: bold;
+    font-size: 32px;
+ }
+ 
+ h4, h3{
+    font-weight: bold;
+    font-size: 24px;
+ }
+ 
+ p{
+    font-weight: normal;
+    font-size: 16px;
+ }
+
+.hero{
+    background-image: url("../images/kristaps-ungurs-iPqa8mNc4uY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+     flex-direction: column;
+  }
+
+  .header img{
+    width: 100px;
+   size: 15px;
+   padding:10px;
+  }
+
+  nav li{
+    padding: 1%;
+    word-spacing: 15px;
+    display: inline-block;
+    text-align: right;
+    color: white;
+   }
+
+.aboutMe img {
+    width: 100%;
+}
+
+.aboutGrid{
+    display: grid;
+    grid-template-columns: 50%, 50%;
+    grid-template-rows: 50%, 50%;
+    grid-template-areas: 
+    "aboutInfo aboutImage"
+    "rolesImage rolesInfo";
+}
+
+.aboutGrid {
+    padding:15px;
+    margin: 15px;
+    text-align: center;
+  }
+
+  .aboutGrid button{
+      padding: 8px;
+      margin: 8px;
+  }
+  
+  .aboutMe {
+      padding:15px;
+      margin: 15px;
+  }
+
+  .homePage{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    box-shadow: gray;
+}
+
+.introtoWork{
+    text-align: center;
+    padding: 50px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 33%, 33%, 33%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "hopeforChildren usdaRedesign timeCapsule";
+}
+
+.workGrid img {
+    width: 100%;
+}
+
+
+.workGrid {
+  padding:15px;
+  margin: 15px;
+  text-align: center;
+}
+.workGrid button{
+    padding: 8px;
+    margin: 8px;
+}
+
+.hopeforChildren {
+    padding:15px;
+    margin: 15px;
+}
+
+.usdaRedesign {
+    padding:15px;
+    margin: 15px;
+}
+
+.timeCapsule {
+    padding:15px;
+    margin: 15px;
+} 
+
+footer{
+    background-color: #FFE599;
+    width: 100%
+}
+
+footer ul li{ 
+ padding: 1%;
+  word-spacing: 15px;
+  display: inline-block;
+  text-align: right;
+}
+
+footer img {
+    width: 100px;
+    size: 15px;
+    padding:10px;
+}
+
+.bottomPg{
+    text-align:end
+}
