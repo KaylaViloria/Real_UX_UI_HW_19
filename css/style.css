@@ -50,6 +50,14 @@ h1{
     "rolesImage rolesInfo";
 }
 
+.aboutImage{
+    grid-area: aboutImage;
+}
+
+.aboutInfo{
+    grid-area: aboutInfo;
+}
+
 .rolesImage{
     grid-area: rolesImage;
 }
