@@ -44,6 +44,56 @@ h1{
     color: white;
    }
 
+   .container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open Sans", helvetica, sans-serif;
+  }
+  #dropDown {
+    display: none;
+  }
+  #toggle {
+    background-color: #FF6767;
+    padding: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer; 
+  }
+  
+  .tools ul {
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+  }
+  .tools li {
+    margin:0;
+    padding: 15px;
+    border: 1px solid black;
+  }
+
+  .interest ul {
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+  }
+  .interest li {
+    margin:0;
+    padding: 15px;
+    border: 1px solid black;
+  }
+
+  img {
+    width: 18px;
+  }
+  
+
+  #toggle img{
+    background-color:  black;
+  }
+  
+
  .flexContainer {
     display: flex;
     flex-direction: row;
